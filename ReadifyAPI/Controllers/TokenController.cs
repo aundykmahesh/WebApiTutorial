@@ -6,12 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ReadifyAPI.Controllers
 {
+    /// <summary>
+    /// Aundy's token
+    /// </summary>
     [Route("api/[controller]")]
     public class TokenController : Controller
     {
         // GET api/documentation
         /// <summary>
-        /// Token
+        /// Aundy's Token
         /// </summary>
         /// <returns>Token</returns>
         [HttpGet]

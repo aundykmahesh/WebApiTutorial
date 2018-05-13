@@ -1,7 +1,3 @@
-c:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.csprojAssemblyReference.cache
-c:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.csproj.CoreCompileInputs.cache
-c:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.AssemblyInfoInputs.cache
-c:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.AssemblyInfo.cs
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
@@ -12,6 +8,11 @@ C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreap
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\ReadifyAPI.Tests.pdb
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\ReadifyAPI.dll
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\ReadifyAPI.pdb
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.csprojAssemblyReference.cache
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.csproj.CoreCompileInputs.cache
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.AssemblyInfoInputs.cache
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.AssemblyInfo.cs
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.csproj.CopyComplete
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.dll
 C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\obj\Debug\netcoreapp2.0\ReadifyAPI.Tests.pdb
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI.Tests\bin\Debug\netcoreapp2.0\ReadifyAPI.xml

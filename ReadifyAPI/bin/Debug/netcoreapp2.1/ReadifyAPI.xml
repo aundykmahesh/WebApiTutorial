@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadifyAPI</name>
+    </assembly>
+    <members>
+        <member name="T:ReadifyAPI.Controllers.FibonacciController">
+            <summary>
+            Returns the nth fibonacci number
+            </summary>
+        </member>
+        <member name="M:ReadifyAPI.Controllers.FibonacciController.Get(System.Int64)">
+            <summary>
+            Returns the nth fibonacci number.
+            </summary>
+            <remarks>
+            fibonacci
+            </remarks>
+            <param name='n'>
+                <description>The index (n) of the fibonacci sequence</description>
+            </param>
+            <returns>nth Fibonacci number</returns>
+        </member>
+        <member name="M:ReadifyAPI.Controllers.FibonacciController.Get(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ReadifyAPI.Controllers.HomeController">
+            <summary>
+            Default controller used for redirection
+            </summary>
+        </member>
+        <member name="M:ReadifyAPI.Controllers.HomeController.Index">
+            <summary>
+            Default action used for redirection to swagger
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ReadifyAPI.Controllers.ReverseWordsController">
+            <summary>
+            Reverses the letters of each word in a sentence.
+            </summary>
+        </member>
+        <member name="M:ReadifyAPI.Controllers.ReverseWordsController.Get(System.String)">
+            <summary>
+            Reverses the letters of each word in a sentence.
+            </summary>
+            <returns>Reverse word</returns>
+            <param name='sentence'>
+                <description>A Sentence</description>
+            </param>
+        </member>
+        <member name="T:ReadifyAPI.Controllers.TokenController">
+            <summary>
+            Aundy's token
+            </summary>
+        </member>
+        <member name="M:ReadifyAPI.Controllers.TokenController.Get">
+            <summary>
+            Aundy's Token
+            </summary>
+            <returns>Token</returns>
+        </member>
+        <member name="T:ReadifyAPI.Controllers.TriangleTypeController">
+            <summary>
+            Returns the type of triange given the lengths of its sides
+            </summary>
+        </member>
+        <member name="M:ReadifyAPI.Controllers.TriangleTypeController.Get(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns the type of triange given the lengths of its sides
+            </summary>
+            <returns>Type of triangel based on sides</returns>
+            <param name="a"><description>The length of side a
+            </description></param>
+            <param name="b"><description>The length of side b
+            </description></param>
+            <param name="c"><description>The length of side c
+            </description></param>
+        </member>
+    </members>
+</doc>

@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using System.Diagnostics;
 
 namespace ReadifyAPI.Tests
 {
@@ -23,7 +24,7 @@ namespace ReadifyAPI.Tests
         }
         [Fact]
 
-        public async void Test_Randomly_Generated_Sentence()
+        public async void Test_Randomly_Generated_Sentences()
         {
             for (int i = 0; i <= 100; i++)
             {
@@ -33,6 +34,21 @@ namespace ReadifyAPI.Tests
                 var actualresult = _reversewordscontroller.Get(randomword);
                 Assert.Equal(expectedresult.Result.Replace('"', ' ').Trim(), actualresult.Value);
             }
+        }
+
+        [Fact]
+        public async void Test_Randomly_Generated_Sentence()
+        {
+
+            string randomword = RandomGenerateString(1000);
+            //string randomword = "This is foe testing";
+                HttpResponseMessage responseMessage = await client.GetAsync("https://knockknock.readify.net:443/api/ReverseWords?sentence=" + randomword);
+                var expectedresult = responseMessage.Content.ReadAsStringAsync();
+                var actualresult = _reversewordscontroller.Get(randomword);
+            Debug.Print(expectedresult.Result);
+            Debug.Print(actualresult.Value.ToString());
+                Assert.Equal(expectedresult.Result.Replace('"', ' ').Trim(), actualresult.Value);
+           
         }
         [Fact]
 
@@ -56,7 +72,7 @@ namespace ReadifyAPI.Tests
         private static string RandomGenerateString(int length)
         {
 
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789           !#$%^&*(){}[]:;':?>.<,";
             return new string(Enumerable.Repeat(chars, length)
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }

@@ -2,19 +2,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ReadifyAPI.Controllers
 {
-    //Comment the routing when working with swagger
-    [Route("")]
-    [Route("api")]
-    [Route("api/[controller]")]
+    /// <summary>
+    /// Default controller used for redirection
+    /// </summary>
     public class HomeController : Controller
     {
-        public string Index()
+        /// <summary>
+        /// Default action used for redirection to swagger
+        /// </summary>
+        /// <returns></returns>
+        [Route("")]
+        [HttpGet]
+        [AllowAnonymous]
+        [ApiExplorerSettings(IgnoreApi =true)]
+        public IActionResult Index()
         {
-            return "Invalid Action";
+            return Redirect("swagger");
         }
 
     }

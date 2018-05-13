@@ -1,0 +1,11 @@
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\bin\Debug\netcoreapp2.1\ReadifyAPI.deps.json
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\bin\Debug\netcoreapp2.1\ReadifyAPI.runtimeconfig.json
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\bin\Debug\netcoreapp2.1\ReadifyAPI.runtimeconfig.dev.json
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\bin\Debug\netcoreapp2.1\ReadifyAPI.dll
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\bin\Debug\netcoreapp2.1\ReadifyAPI.pdb
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\obj\Debug\netcoreapp2.1\ReadifyAPI.csprojAssemblyReference.cache
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\obj\Debug\netcoreapp2.1\ReadifyAPI.csproj.CoreCompileInputs.cache
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\obj\Debug\netcoreapp2.1\ReadifyAPI.AssemblyInfoInputs.cache
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\obj\Debug\netcoreapp2.1\ReadifyAPI.AssemblyInfo.cs
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\obj\Debug\netcoreapp2.1\ReadifyAPI.dll
+C:\Users\aundy\OneDrive\Projects\ReadifyAPI\ReadifyAPI\obj\Debug\netcoreapp2.1\ReadifyAPI.pdb
